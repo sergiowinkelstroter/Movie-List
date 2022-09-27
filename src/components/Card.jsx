@@ -10,7 +10,7 @@ export function Card({ movie }) {
       <h1 className="text-center text-3xl font-semibold text-white mt-10">
         {show ? "" : "Filmes Populares"}
       </h1>
-      <div className="grid grid-cols-1 sm:grid-cols-3  gap-20 md:gap-32 m-auto sm:ml-8 lg:m-auto">
+      <div className="grid grid-cols-2 sm:grid-cols-3  gap-20 md:gap-32 m-auto sm:ml-8 lg:m-auto">
         {movie.map((movie) => {
           if (show) {
             return null;

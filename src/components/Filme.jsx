@@ -17,5 +17,9 @@ export function Filme() {
       });
   }, []);
 
-  return <Card movie={movie} />;
+  return (
+    <div className="mx-6 md:mx-0">
+      <Card movie={movie} />
+    </div>
+  );
 }
